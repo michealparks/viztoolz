@@ -1,0 +1,32 @@
+{
+  "name": "viztoolz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build",
+    "build-ci": "vite build --base=/viztoolz/",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.1",
+    "@tsconfig/svelte": "^4.0.1",
+    "svelte": "^3.59.1",
+    "svelte-check": "^3.4.3",
+    "tslib": "^2.5.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.11.2",
+    "@threlte/core": "^6.0.0-next.8",
+    "@threlte/extras": "^5.0.0-next.13",
+    "@threlte/rapier": "^1.0.0-next.2",
+    "@types/three": "^0.152.1",
+    "three": "^0.153.0",
+    "three-inspect": "^0.3.4",
+    "trzy": "^0.0.54"
+  }
+}
